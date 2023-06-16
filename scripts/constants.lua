@@ -15,6 +15,19 @@ PlayerHands = {
     Yellow = 'fcfb8f',
 }
 
+PlayerHandsByGuid = {
+    ['2cc705'] = 'Green',
+    ['8bf552'] = 'Green',
+    ['5caab9'] = 'Red',
+    ['cdd4e9'] = 'Red',
+    ['34a6bf'] = 'White',
+    ['5ebbf3'] = 'White',
+    ['b6e49e'] = 'Blue',
+    ['adf8ca'] = 'Blue',
+    ['fcfb8f'] = 'Yellow',
+    ['77de8b'] = 'Yellow'
+}
+
 ScenarioMatZoneGuid = 'e1e978'
 ScenarioMatGuid = '4aa570'
 OutpostMatGuid = '756956'
