@@ -2461,3 +2461,19 @@ function lootKeyPressed(color, hovered)
       getScenarioMat().call("doLoot", {player_color= color, count= 1})
    end
 end
+
+function onObjectEnterZone(zone, obj)
+   if PlayerHandsByGuid[zone.guid] then
+      if obj.hasTag("ability card") then
+         obj.setScale({x=1.6,y=1,z=1.6})
+      end
+   end
+end
+
+function onObjectLeaveZone(zone, obj)
+   if PlayerHandsByGuid[zone.guid] then
+      if obj.hasTag("ability card") then
+         obj.setScale({x=1,y=1,z=1})
+      end
+   end
+end
